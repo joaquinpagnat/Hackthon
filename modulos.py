@@ -1,4 +1,5 @@
 def mensajeBienvenida():
+    #hola
     ancho=80
     print(
     "=" * ancho + "\n" +
@@ -92,4 +93,5 @@ def main(contador=1, equipo = "nuevo"):
     exp = 0
     cargaParticipantes(listaNombres,listaDNIs,equipo)
     exp = pregExp()
+
     pregEquipos(contador, equipo)
